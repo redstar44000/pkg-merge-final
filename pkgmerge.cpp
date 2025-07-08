@@ -56,7 +56,7 @@ int main(int argc, char* argv[]) {
 
     std::ofstream out(out_path, std::ios::binary);
     if (!out) {
-        std::cerr << "❌ خطا در ساخت فایل خروجی: " << out_path << '\n';
+        std::cerr << "❌ خطا در  ساخت فایل خروجی: " << out_path << '\n';
         return 1;
     }
 
@@ -74,3 +74,4 @@ int main(int argc, char* argv[]) {
     std::cout << "\n🎉 فایل نهایی ساخته شد: " << out_path << '\n';
     return 0;
 }
+
